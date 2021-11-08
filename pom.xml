@@ -20,7 +20,7 @@
 	<properties>
 		<sonar.host.url>http://65.2.71.109:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<project.build.sourceEncoding>password</project.build.sourceEncoding>
+		<sonar.password>password</sonar.password>
 	</properties>
 
 	<dependencies>
