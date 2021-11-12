@@ -18,7 +18,7 @@
 	<description>Maven Standalone Application</description>
 
 	<properties>
-		<sonar.host.url>http://65.2.71.109:9000/</sonar.host.url>
+		<sonar.host.url>http://65.2.161.159:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 	</properties>
@@ -38,13 +38,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>standalone-release</name>
-	      <url>http://15.206.128.64:8081/repository/maven-standalone/</url>
+	      <url>http://15.206.90.127:8081/repository/maven-standalone//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Standalone-snapshot</name>
-	      <url>http://15.206.128.64:8081/repository/maven-standalone-snapshot/</url>
+	      <url>http://15.206.90.127:8081/repository/maven-standalone-snapshot/</url>
 	    </snapshotRepository>
 	    
 </distributionManagement>
